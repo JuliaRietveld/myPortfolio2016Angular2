@@ -1,0 +1,27 @@
+ <section class="personal">
+  <div class="aside">
+    <div class="avatar">
+      <img src="/assets/img/julia.jpg" alt="Julia Rietveld, front-end developer">
+    </div>
+  </div>
+  <div class="main">
+      <div class="branding">
+        <h1>{{ name }}</h1>
+        <h3>{{ title }}</h3>
+      </div>
+      <div class="contact" itemscope itemtype="http://schema.org/Person">
+        <div class="phone">
+          <div class="icon-container">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+          </div>
+          <span itemprop="telephone" class="my-phone">{{ phone }}</span>
+        </div>
+        <div class="mail">
+          <div class="icon-container">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <a itemprop="email" class="my-email" href="mailto:{{ email }}">{{ email }}</a>
+        </div>
+      </div>
+  </div>
+</section>
